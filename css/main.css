@@ -1,0 +1,85 @@
+* {
+	padding: 0; margin: 0;
+	box-sizing: border-box;
+	position: relative;
+	font-family: Arial;
+	font-size: 14px;
+}
+body {
+	background-image: url(https://gadis-online.com/wp-content/uploads/2020/11/Background-giay-cu-dep.jpg);
+}
+
+
+#container{
+	width: 100%;
+	margin: 30px auto;
+}
+.content-area{
+	padding: 5px;
+	margin: 5px;
+	background: #d3b575;
+	border: 1px solid #7F4F2A;
+	
+}
+
+
+ 
+/*Control Elements*/
+.btn1 {
+	font-weight: bold;
+	background-color:  #bb9756;
+	border: 2px solid #7F4F2A;
+	border-radius: 5px;
+	color: #5C392A;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 10px;
+}
+
+#board-area{
+	margin:15%;
+	max-width: 1000px;
+}
+
+#board-table{
+	width: 100%;
+	border: 1px solid #7F6346;
+	min-width: 500px;
+	table-layout:fixed; 
+}
+.square{
+	margin-bottom: 8%;
+	width:80%;
+	padding: 2px;
+	border: 1px solid #7F6346;
+	cursor: pointer;
+	overflow:hidden;
+}
+.square:before{
+    content:'';
+    float: left;
+	padding-top:100%;
+}
+.square img{
+	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#board-cpanel{
+	margin-top: 10px;
+	padding: 10px;
+	z-index: 100;
+	background-color: #b79244;;
+	border-radius: 5px;
+}	
+.title{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.title h2{
+	color:#7F4F2A;
+	font-size: 2vw;
+}

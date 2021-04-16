@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Caro game</title>
+	<link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+</head>
+<body>
+
+<div id = "container">
+<div id = "board-area" class="content-area">
+	<div class = "title">
+		<h2>GAME CARO</h2>
+	</div>
+	<div id="board">
+		Vui lòng kích hoạt javascript trên trình duyệt của bạn để tải trò chơi!
+	</div>
+	<div id="board-cpanel">
+
+		<button class="btn1" id="newGame" onclick="board.new()">
+			<i class="fa fa-gamepad fa-2x" aria-hidden="true"></i> New game
+		</button>
+		<button class="btn1 " id="undo" onclick ="board.undo()">
+			<i class="fa fa-undo fa-2x" aria-hidden="true" ></i> Undo
+		</button>
+		<button class="btn1 " id="redo">
+			<i class="fa fa-repeat fa-2x" aria-hidden="true"></i> Redo
+		</button>
+		<button class="btn1 " id="quit">
+			<i class="fa fa-sign-out fa-2x" aria-hidden="true" onclick = "board.exit()"></i> Exit
+		</button>
+
+	</div>
+</div>
+
+
+</div>
+
+</body>
+	
+	<script type="text/javascript" src="./js/board.js"></script>
+</html>
